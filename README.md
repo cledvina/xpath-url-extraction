@@ -10,11 +10,11 @@ The goal of this guide is to arrive at a text file, with each line containing a 
 
 We will use [XPath](https://www.w3schools.com/xml/xpath_intro.asp) to extract a list of links and copy this list to the clipboard.  You can then paste this list to path.txt.
 
-### 1. Open the console in Chrome
-To open the Chrome console open View > Developer > JavaScript console (or right click on a web page and select "inspect".)
+### Instructions
+1.  To open the Chrome console open View > Developer > JavaScript console (or right click on a web page and select "inspect".)
 
-### 2. Copy the contents of xpath.js and paste it into the console after the >.
+2. Copy the contents of xpath.js and paste it into the console after the >.
 
-### 3. Update the XPath in the first line (i.e. '//a') to fine-tune the location of nodes that contain proper links.
+3. Update the XPath in the first line (i.e. '//a') to fine-tune the location of nodes that contain proper links.
 
-### 4. Hit Enter and you should get a list of URLs along with a message telling you how many links have been copied to the clipboard.
+4. Hit Enter and you should get a list of URLs along with a message telling you how many links have been copied to the clipboard.
